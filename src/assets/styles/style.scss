@@ -8,8 +8,10 @@
 @import "basics/base.scss";
 @import "basics/buttons.scss";
 @import "basics/layout.scss";
-// PAGES
+// Pages
 @import "pages/home-page.scss";
+@import "pages/login-page.scss";
+
 // Components
 @import "cmps/app-header.scss";
 @import "cmps/user-msg.scss";
