@@ -8,14 +8,14 @@ import { AppHeader } from './cmps/app-header.jsx'
 
 export function RootCmp() {
   return (
-    <div className="App">
+    <div className="root-cmp">
       <AppHeader />
       <main>
-        {/* <Routes>
+        <Routes>
           {routes.map(route => (
             <Route key={route.path} element={route.element} path={route.path}/>
           ))}
-        </Routes> */}
+        </Routes>
       </main>
     </div>
   );
