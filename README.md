@@ -1,10 +1,9 @@
 ﻿
 # Authentication Tests
+<img src="src/assets/imgs/login-mobile.jpg" width="40%" style="float: right"/>
 I created this project, to feel how it's like to have tests with React.
 I did it because I want to have it before I create a big project with tests. 
 In addition, I needed a reason to create a refference for a project that is based on react-v18 and router-v6...
-
-![Carbon image](imgs/carbon.png "Carbon image")
 
 ## About the tests
 So to create my small refference for tests, I chosed to implement it on the Login button.
@@ -16,7 +15,7 @@ And now for the tests:
 I added the image below to help you follow along.
 Basically I used jest amazing gifts, such as render, screen and user event in order to simulate a real DOM and user actions, and to see if it is indeed follow my expectations...
 
-![Carbon image](imgs/carbon.png "Carbon image")
+![Carbon image](src/assets/imgs/carbon2.png "Carbon image")
 
 ## Getting started
 Clone the project or dowload the files on top.
