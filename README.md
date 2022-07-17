@@ -1,7 +1,8 @@
 ﻿
 # Authentication Tests
 
-<h4> I created this project, to feel how it's like to have tests with React. I did it because I want to have it before I create a big project with tests. In addition, I needed a reason to create a refference for a project that is based on react-v18 and router-v6...</h4>
+<h4> I created this project, to feel how it's like to have tests with React. I did it because I want to have it before I create a big project with tests.</h4>
+<h4>In addition, I needed a reason to create a refference for a project that is based on react-v18 and router-v6...</h4>
 
 <img src="src/assets/imgs/carbon2.png" width="70%" style="float: left"/><img src="src/assets/imgs/login-mobile.jpg" width="21.8%" style="float:left"/>
 
