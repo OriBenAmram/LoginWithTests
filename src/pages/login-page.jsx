@@ -12,20 +12,6 @@ export function LoginPage() {
         console.log('password:', password);
     }
 
-    const onClickBtn = () => { 
-        console.log('counter:', counter);
-        for(let i = 0; i < 3; i++) { 
-            setCounter(prevState => {
-                return prevState + 1
-            })
-        }
-        console.log('counter:', counter);
-        // setCounter(prevState => {
-        //     console.log('prevState:', prevState);
-        //     return prevState
-        // })
-    }
-
     const isDisabled = (username && password) ? false : true
     const btnClasses = `btn btn-submit ${isDisabled ? 'is-block' : ''}`
     
@@ -50,7 +36,6 @@ export function LoginPage() {
                 />
                 <button className={btnClasses} disabled={isDisabled}>Login</button>
             </form>
-            <button onClick={onClickBtn}>Counter</button>
         </div>
     )
 }

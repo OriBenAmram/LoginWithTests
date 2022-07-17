@@ -23,7 +23,7 @@ export function AppHeader() {
                 <nav className="nav-container">
                     <ul className={`nav-links clean-list ${(isMenuOpen) ? 'open' : ''}`}>
                     <NavLink className={(navData) => navData.isActive ? 'active' : ''} to={'/'}> <li>Home</li></NavLink>
-                    <NavLink className={(navData) => navData.isActive ? 'active' : ''} to={'/login'}> <li>Other</li></NavLink>
+                    <NavLink className={(navData) => navData.isActive ? 'active' : ''} to={'/login'}> <li>Login</li></NavLink>
                     </ul>
                 </nav>
                 <button className="hamburger-btn" onClick={() => {

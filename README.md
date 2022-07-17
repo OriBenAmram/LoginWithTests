@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+﻿
+# Authentication Tests
+I created this project, to feel how it's like to have tests with React.
+I did it because I want to have it before I create a big project with tests. 
+In addition, I needed a reason to create a refference for a project that is based on react-v18 and router-v6...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Carbon image](imgs/carbon.png "Carbon image")
 
-## Available Scripts
+## About the tests
+So to create my small refference for tests, I chosed to implement it on the Login button.
+I wanted this button to be ***disabled*** when the fields of the username and password are not both with content.
 
-In the project directory, you can run:
+I guess the functionality isn't require explanation, but just to be fair I added an image that might clerify the move I tried to make here - [Scroll up to see](#authentication-tests).
 
-### `npm start`
+And now for the tests:
+I added the image below to help you follow along.
+Basically I used jest amazing gifts, such as render, screen and user event in order to simulate a real DOM and user actions, and to see if it is indeed follow my expectations...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Carbon image](imgs/carbon.png "Carbon image")
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting started
+Clone the project or dowload the files on top.
+```
+git clone https://github.com/OriBenAmram/LoginWithTests.git
+```
+Open the terminal and enter the following lines to run it locally on your computer:
+```
+npm i
+npm start
+```
+Runs the app in the development mode. Open http://localhost:3000 to view it in the browser (it is supposed to happen automatically).
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Now, to see some tests, run this line:
+```
+npm run test
+```
+You supposed to see that the tests are running (in the terminal), and two out of two should be passed. 
