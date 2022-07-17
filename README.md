@@ -1,9 +1,10 @@
 ﻿
 # Authentication Tests
-<img src="src/assets/imgs/login-mobile.jpg" width="40%" style="float: right"/>
+
 I created this project, to feel how it's like to have tests with React.
 I did it because I want to have it before I create a big project with tests. 
 In addition, I needed a reason to create a refference for a project that is based on react-v18 and router-v6...
+<img src="src/assets/imgs/login-mobile.jpg" width="40%" style="float: right"/>
 
 ## About the tests
 So to create my small refference for tests, I chosed to implement it on the Login button.
